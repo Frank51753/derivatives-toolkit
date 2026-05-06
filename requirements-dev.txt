@@ -1,0 +1,30 @@
+# Development Requirements for derivatives-toolkit
+# Install with: pip install -r requirements-dev.txt
+
+# Include base requirements
+-r requirements.txt
+
+# Testing
+pytest>=6.2.0
+pytest-cov>=2.12.0
+
+# Code Quality
+black>=21.0
+flake8>=3.9.0
+isort>=5.9.0
+mypy>=0.910
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Jupyter & Interactive
+jupyter>=1.0.0
+ipython>=7.0.0
+notebook>=6.0.0
+
+# Scientific Extensions
+sympy>=1.9
+statsmodels>=0.12.0
+seaborn>=0.11.0
+plotly>=5.0.0
